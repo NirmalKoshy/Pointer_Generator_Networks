@@ -1,6 +1,4 @@
 # Project Overview
-This project focuses on developing a Pointer-Generator Network, a type of neural network architecture designed for abstractive text summarization. In simple terms, it generates concise summaries of long documents by creating new sentences rather than just copying or reordering parts of the original text.
-
 In this project, I implemented a Pointer-Generator Network to tackle the challenge of summarizing long documents in a more efficient and human-like way. I focused on improving the model’s ability to capture key information while avoiding repetition.
 
 I started by building a basic sequence-to-sequence (seq2seq) model, which is commonly used for tasks like text generation. Then, I introduced the pointer mechanism, allowing the model to decide when to generate new words or copy directly from the original text. This made the summaries more accurate, especially when handling specific names or numbers.
